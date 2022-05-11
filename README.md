@@ -12,8 +12,21 @@ Ensure you have jQuery and jQuery-UI on the document
 ### jQuery UI
 https://jqueryui.com/download/
 
+### 
 
 # Usage
+
+### HTML
+```html
+<head>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery-ui-1.13.1/jquery-ui.js"></script>
+    <script src="window.css">
+    <script src="windows.js">
+</head>
+```
+
+### JS
 ```js
 width = 600
 height = 300
