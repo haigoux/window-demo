@@ -26,7 +26,7 @@ https://jqueryui.com/download/
 </head>
 ```
 
-### JS
+#### JS
 ```js
 width = 600
 height = 300
