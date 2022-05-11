@@ -16,7 +16,7 @@ https://jqueryui.com/download/
 
 ## Usage
 
-### HTML
+#### HTML
 ```html
 <head>
     <script src="jquery-3.6.0.min.js"></script>
