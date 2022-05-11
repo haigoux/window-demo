@@ -21,8 +21,8 @@ https://jqueryui.com/download/
 <head>
     <script src="jquery-3.6.0.min.js"></script>
     <script src="jquery-ui-1.13.1/jquery-ui.js"></script>
-    <script src="window.css">
-    <script src="windows.js">
+    <script src="window.css"></script>
+    <script src="windows.js"></script>
 </head>
 ```
 
