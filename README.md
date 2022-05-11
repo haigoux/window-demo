@@ -1,4 +1,4 @@
-# window-demo
+# window-demo (WORK IN PROGRESS)
 A JS class I made for making draggable windows
 
 ## Dependencies
