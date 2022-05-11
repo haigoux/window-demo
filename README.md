@@ -14,7 +14,7 @@ https://jqueryui.com/download/
 
 ### 
 
-# Usage
+## Usage
 
 ### HTML
 ```html
