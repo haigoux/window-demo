@@ -1,12 +1,13 @@
-div.window{
+div.window {
     /* a window  */
-
-    background-color: rgb(2,2,2);
+    background-color: rgba(15, 15, 15, 0.638);
     position: absolute;
-
+    backdrop-filter: blur(25px);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
-.window.top{
+.window.top {
     /* top of the window, draggable */
     top: 0;
     left: 0;
@@ -17,49 +18,46 @@ div.window{
     border-top-right-radius: 5px;
 }
 
-.window.top ul{
+.window.top ul {
     /* for control buttons */
     list-style: none;
     margin: 0;
     padding: 0;
     float: right;
-
+    user-select: none;
     /* for control buttons */
-    margin-right: 1px;
-  
-
 }
 
-.text-top{
+.text-top {
     /* force in middle */
     position: absolute;
     user-select: none;
     left: 50%;
     transform: translate(-50%, 0);
     margin-top: 8px;
-
 }
 
-.window.top ul button{
+.window.top ul button {
     /* for control buttons */
     width: 30px;
     height: 30px;
-
     color: white;
     background-color: transparent;
     border: none;
 }
 
-.window.top ul button.close{
+.window.top ul button.close {
     border-top-right-radius: 5px;
 }
 
-.window.top ul button.close:hover{
+.window.top ul button.close:hover {
     /* for control buttons */
     background-color: rgb(255, 53, 53);
+    cursor: pointer;
 }
 
-.window.top ul button.minimize:hover{
+.window.top ul button.minimize:hover {
     /* for control buttons */
     background-color: rgba(88, 88, 88, 0.404);
+    cursor: pointer;
 }
